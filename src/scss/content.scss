@@ -1,48 +1,49 @@
 span {
+    margin: 10px 0 10px 10px;
     padding: 5px;
-    margin-left: 20px;
+
 }
 
 .cartoon-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
 
-.cartoon-img {
-    width: 100%;
-    height: 380px;
-}
+    .cartoon-img {
+        height: 380px;
+        width: 100%;
 
-.cartoon-img:hover {
-    cursor: pointer;
-}
-
-
-.cartoon-card {
-    font-family: 'Lato', sans-serif;
-    max-width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-
-    &:hover {
-        .card-container {
-            max-height: 200px;
+        &:hover {
+            cursor: pointer;
         }
     }
 
-
-    .card-container {
-        max-height: 0;
-        border: 1px solid #000;
-        width: 100%;
+    .cartoon-card {
+        font-family: 'Lato', sans-serif;
+        max-width: 250px;
         display: flex;
         flex-direction: column;
-        position: relative;
-        overflow: hidden;
-        transition: max-height 0.25s ease-in;
+        align-items: center;
+        margin: 20px;
 
+        &:hover {
+            .card-container {
+                max-height: 200px;
+                overflow: scroll;
+            }
+        }
+
+
+        .card-container {
+            max-height: 0;
+            border: 1px solid #000;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            transition: max-height 0.25s ease-in;
+
+        }
     }
 }
