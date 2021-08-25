@@ -1,0 +1,27 @@
+header {
+  align-items: center;
+  background-color: #F4D800;
+  display: flex;
+  padding: 18px;
+  width: 100%;
+}
+
+.logo {
+  margin-right: 15px;
+}
+
+.nav-input {
+  padding: 5px;
+  border-radius: 12px;
+  border-style: none;
+  border-color: black;
+  background: none;
+  border: 1px solid #444d56;
+  width: 220px;
+}
+
+.nav-input:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=nav.css.map */
