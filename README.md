@@ -4,7 +4,7 @@ A cartoon enciclopedia built with JavaScript Vanilla
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Check it out](#checkitout)
+* [Check it out](#check-it-out)
 
 ## General info
 This project is an enciclopedia built consuming an API with JavaScript Vanilla.
